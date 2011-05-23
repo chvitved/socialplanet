@@ -1,0 +1,32 @@
+#map{
+	width:100%; 
+	height:100%;
+}
+
+#searchbox{
+	position: fixed;
+	top: 10px;
+	left: 100px;
+	z-index: 100;
+}
+
+#searchbox > div {
+	/* for modern browsers use semi-transparent color on the border. nice! */
+	border:2px solid rgba(82, 82, 82, 0.698);
+
+	/* hot CSS3 features for mozilla and webkit-based browsers (rounded borders) */
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	background-color:#fff;
+	padding: 5px;
+	margin: 5px;
+}
+
+#searchbox h2, p {
+	padding: 5px;
+	margin: 5px;
+	font-size:20px;
+}
+#search-results {
+
+}

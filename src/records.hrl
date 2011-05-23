@@ -1,0 +1,4 @@
+-record(point, {latitude, longitude}).
+-record(boundingbox, {northLat, southLat, eastLong, westLong}).
+-record(context, {boundingbox}). %% remove later
+-record(search_result, {name, boundingbox, center, source}).

@@ -1,0 +1,8 @@
+#Tue Mar 29 22:02:01 CEST 2011
+backend_version=R13B
+eclipse.preferences.version=1
+external_includes=
+external_modules=
+include_dirs=deps;deps/webmachine/include;deps/mochiweb/include;deps/mochiweb/priv/skel/src;src;deps/webmachine/src
+output_dir=ebin
+source_dirs=deps/webmachine/priv/templates/src;deps/webmachine/demo/src;deps/mochiweb/priv/skel/src;deps/mochiweb/scripts;src;deps/webmachine/test;deps/webmachine/src;deps/mochiweb/src

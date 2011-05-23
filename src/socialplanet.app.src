@@ -1,0 +1,17 @@
+%%-*- mode: erlang -*-
+{application, socialplanet,
+ [
+  {description, "socialplanet"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { socialplanet_app, []}},
+  {env, []}
+ ]}.
